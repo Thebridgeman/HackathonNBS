@@ -1,0 +1,45 @@
+#badgeparent{
+    display: flex;   
+}
+#headerparent{
+    display: flex;
+}
+img{
+    margin: 20px;
+}
+a{
+    float:right;
+}
+h1{
+    color: #002979;
+    font-size: 60px; 
+    padding: 10px;  
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+body{
+    font-family: sans-serif; 
+}
+
+fieldset{
+    background-color: #002979;
+    color: white;
+    border:none;
+    border-radius: 16px;
+    font-size: 24px;
+    margin: 40px;
+    padding: 20px;
+}
+
+#badge{
+    background-color: #ED0B14;
+    color: white;
+    border:none;
+    border-radius: 16px;
+    font-size: 16px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+
+}
