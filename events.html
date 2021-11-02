@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Events </title>
+    <link rel= "stylesheet" href = "events.css">
+</head>
+
+<body>
+<img alt="Nationwide Logo" src="Nwidelogo.png" style="height: 50px; width: 150px"/>
+<a id="eventstohome" href="home.html">    
+    <img alt="Nationwide Logo" src="HomeIcon.png" style="height: 50px; width: 50px">
+</a>
+<h1> Events at Nationwide </h1>
+
+<div id = "parent">
+
+    
+<fieldset>
+<h2> All Channels </h2>
+<div id="allchannels"></div>
+<button id="joinchannel"> Join Channel </button>
+</fieldset>
+
+
+<fieldset>
+<h2> My Channels </h2> 
+<div id="mychannels"></div>
+<button id="openchannel"> Open Channel </button>
+<button id="leavechannel"> Leave Channel </button>
+</fieldset>
+
+<fieldset>
+<h2> Create Channel: </h2>
+<div id="createchannelform">
+<form>
+<label for="channelname"> Channel Name: </label>
+<input type="text" placeholder="Enter Channel Name" id="channelname"/>
+<br/>
+<label for="channeldescription"> Description: </label>
+<input type="text" placeholder="Enter Channel Description" id="channeldescription">
+<br/>
+<label for="channelinvite"> Invite People: </label>
+<input type="text" placeholder="Enter People to Invite" id="channelinvite">
+<br/>
+<input type="button" id="createchannelbutton" value="Create Channel" onclick="createChannel()"/>
+</form>
+</fieldset>
+</div>
+
+</div>
+
+    <script type="text/javascript" src="events.js"></script>
+</body>
+</html>
