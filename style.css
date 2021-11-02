@@ -21,7 +21,7 @@ form {
     margin: 14px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    
   }
   
   /* Add a hover effect for buttons */
@@ -66,11 +66,39 @@ form {
 /* Heading styles */ 
 
 h1 {
+  font-family: sans-serif;
+  font-size: 45px;
   color: #002979;
 }
 
+h3 {
+  
+  font-size: 25px;
+  color: #020202;
+}
 
+.HouseLogo {
+  display: flex;
+}
 
+.HouseLogo center {
+  flex-grow: 4;
+}
 
+center {
+  text-align: center;
+}
 
+.Peoplelogo{
+  display:flex;
+}
 
+.AboutMe{
+  display: flex;
+  flex-direction: column ;
+}
+
+.AboutMe button{
+  max-width: 100px;
+  text-align: right;
+}
