@@ -168,7 +168,7 @@ li, ul {
   margin-top: 100px;
 }
 
-.EventsChan a {
+.EventsChan a, button a {
   text-decoration: none;
   color: white;
 }
