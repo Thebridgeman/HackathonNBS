@@ -79,6 +79,21 @@ h3 {
   color: #002979;
 }
 
+h4 {
+  
+  font-size: 27px;
+  color: #002979;
+
+}
+
+h5 {
+  
+  font-size: 22px;
+  color: #070707;
+  text-align: center;
+  
+}
+
 .HouseLogo {
   display: flex;
 }
@@ -93,6 +108,11 @@ center {
 
 .Peoplelogo{
   display:flex;
+
+}
+
+.Peoplelogo img{
+  margin-right: 15px;
 }
 
 .AboutMe{
@@ -103,6 +123,36 @@ center {
 .AboutMe button{
   max-width: 100px;
   
-  
 }
 
+.EventsChan{
+  
+  display: flex;
+}
+
+.Events, .Channels {
+  
+  max-width: 200px;
+  margin-left: 75px;
+
+}
+
+
+li, ul {
+  list-style-type: none;
+  padding:0px;
+  margin:0px;
+  text-align: left;
+}
+
+.searchbar{
+  max-width: 150px;
+}
+
+.Align{
+  display: flex;
+}
+
+.Connecting {
+  margin-left: 150px;
+}
