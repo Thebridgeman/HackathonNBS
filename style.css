@@ -167,3 +167,8 @@ li, ul {
   margin-left: px;
   margin-top: 100px;
 }
+
+.EventsChan a {
+  text-decoration: none;
+  color: white;
+}
